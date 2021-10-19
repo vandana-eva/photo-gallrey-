@@ -1,0 +1,34 @@
+body {
+    background-color:pink;
+    text-align:center;
+}
+h1 {
+    font-size:30px;
+    color:blue;
+.menu {
+    list-style:none;
+    position: absolute;
+    top:0px;
+    right:30px;
+    z-index:10;
+    cursor:pointer;
+  color:blue;
+  font-family:arial black;
+}
+.links:hover {
+    font-size:35px;
+    text-decoration: underline;
+}
+a {
+    color:#006064;
+    text-decoration:none;
+}
+.links { 
+    float: right;
+    padding-top:0px;
+    padding-left:3px;
+    padding-bottom:9px;
+    padding-right:9px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 23px;
+}
